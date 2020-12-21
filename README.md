@@ -6,5 +6,5 @@ backend service using Docker Compose.
 ## Usage
 
 * Copy .env.example to .env and define the variables. NGINX_PORT and BACKEND_PORT may be the same or different.
-* docker-compose up
+* docker-compose up --build
 * Access http://localhost/yes.svg
